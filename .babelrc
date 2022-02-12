@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    [
+      "@dr.pogodin/babel-plugin-react-css-modules",
+      {
+        "exclude": "node_modules",
+        "generateScopedName": "[path]__[name]__[local]__[hash:base64:5]",
+        "webpackHotModuleReloading": true
+      }
+    ]
+  ]
+}
